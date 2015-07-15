@@ -62,6 +62,7 @@ launch4j {
     
     copyright = 'justnero'
 }
+createExe.dependsOn obfuscate
 
 task dist(type: Copy, dependsOn: [obfuscate, createExe]) {
     destinationDir = file('build/distributions')
@@ -71,11 +72,10 @@ task dist(type: Copy, dependsOn: [obfuscate, createExe]) {
         include '*.jar'
     }
 }
+assemble.shouldRunAfter dist
 
-task release(dependsOn: [assemble]) {
-    createExe.dependsOn obfuscate
-    assemble.dependsOn dist
-    println("Release ${->project.name} ${version}")
+task release(dependsOn: [dist, assemble]) << {
+    println("Released ${->project.name} ${version}")
 }
 
 artifacts {
