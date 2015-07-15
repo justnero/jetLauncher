@@ -1,0 +1,485 @@
+ru.justnero.jetlauncher.InitSplash -> a:
+    java.awt.Image bin -> a
+    ru.justnero.jetlauncher.InitSplash _instance -> a
+    12:12:void <init>() -> <init>
+    20:21:void paint(java.awt.Graphics) -> paint
+    25:31:void run() -> run
+    14:16:void <clinit>() -> <clinit>
+ru.justnero.jetlauncher.InitSplash$1 -> a$1:
+    25:25:void <init>() -> <init>
+    28:29:void run() -> run
+    1035:1042:void ru.justnero.jetlauncher.InitSplash.showsplash():35:42 -> run
+    1035:1042:void run():28 -> run
+ru.justnero.jetlauncher.InitSplash$2 -> a$2:
+    45:45:void <init>() -> <init>
+    48:49:void run() -> run
+ru.justnero.jetlauncher.LauncherHandler -> b:
+    ru.justnero.jetlauncher.swing.JetFrame launcherFrame -> a
+    java.lang.String userName -> a
+    java.lang.String session -> b
+    ru.justnero.jetlauncher.LauncherHandler$Game game -> a
+    ru.justnero.jetlauncher.LauncherHandler$Game[] games -> a
+    java.util.ArrayList toExtract -> a
+    int memoryLimit -> a
+    36:47:void <init>() -> <init>
+    59:90:ru.justnero.jetlauncher.LauncherHandler$Game[] getGames() -> a
+    1036:1036:java.net.Socket ru.justnero.jetlauncher.Network.connect(int):36:36 -> a
+    1036:1036:ru.justnero.jetlauncher.LauncherHandler$Game[] getGames():62 -> a
+    192:217:boolean checkGame(java.io.File) -> a
+    1084:1084:java.lang.String ru.justnero.jetlauncher.util.UtilHash.sha1(java.lang.String):84:84 -> a
+    1084:1084:boolean checkGame(java.io.File):199 -> a
+    2036:2036:java.net.Socket ru.justnero.jetlauncher.Network.connect(int):36:36 -> a
+    2036:2036:boolean checkGame(java.io.File):201 -> a
+    2751:2751:int ru.justnero.jetlauncher.LauncherHandler$Game.id():751:751 -> a
+    2751:2751:boolean checkGame(java.io.File):205 -> a
+    222:248:boolean clearDir(java.io.File) -> b
+    401:450:java.lang.Process getGameProcess(java.io.File) -> a
+    3751:3751:int ru.justnero.jetlauncher.LauncherHandler$Game.id():751:751 -> a
+    3751:3751:java.lang.Process getGameProcess(java.io.File):432 -> a
+    4486:4509:java.lang.String getClientSID():486:509 -> a
+    4486:4509:java.lang.Process getGameProcess(java.io.File):435 -> a
+    5036:5036:java.net.Socket ru.justnero.jetlauncher.Network.connect(int):36:36 -> a
+    5036:5036:java.lang.String getClientSID():487 -> a
+    5036:5036:java.lang.Process getGameProcess(java.io.File):435 -> a
+    5084:5084:java.lang.String ru.justnero.jetlauncher.util.UtilHash.sha1(java.lang.String):84:84 -> a
+    5084:5084:java.lang.String getClientSID():491 -> a
+    5084:5084:java.lang.Process getGameProcess(java.io.File):435 -> a
+    6084:6084:java.lang.String ru.justnero.jetlauncher.util.UtilHash.sha1(java.lang.String):84:84 -> a
+    6084:6084:java.lang.String getClientSID():491 -> a
+    6084:6084:java.lang.Process getGameProcess(java.io.File):435 -> a
+    7084:7084:java.lang.String ru.justnero.jetlauncher.util.UtilHash.sha1(java.lang.String):84:84 -> a
+    7084:7084:java.lang.String getClientSID():491 -> a
+    7084:7084:java.lang.Process getGameProcess(java.io.File):435 -> a
+    7759:7759:java.lang.String ru.justnero.jetlauncher.LauncherHandler$Game.displayName():759:759 -> a
+    7759:7759:java.lang.Process getGameProcess(java.io.File):442 -> a
+    454:482:java.lang.String getLibraries(java.io.File) -> b
+    513:557:long downloadFile(ru.justnero.jetlauncher.swing.Panel04Load,java.io.File,java.lang.String,java.lang.String,java.lang.String,long,long,int,int) -> a
+    8036:8036:java.net.Socket ru.justnero.jetlauncher.Network.connect(int):36:36 -> a
+    8036:8036:long downloadFile(ru.justnero.jetlauncher.swing.Panel04Load,java.io.File,java.lang.String,java.lang.String,java.lang.String,long,long,int,int):516 -> a
+    8561:8574:java.lang.String getSizeString(long,long):561:574 -> a
+    8561:8574:long downloadFile(ru.justnero.jetlauncher.swing.Panel04Load,java.io.File,java.lang.String,java.lang.String,java.lang.String,long,long,int,int):540 -> a
+    632:671:java.lang.String memberData() -> a
+    32:32:void access$500(ru.justnero.jetlauncher.LauncherHandler,java.io.File,ru.justnero.jetlauncher.swing.Panel04Load) -> a
+    9303:9362:void downloadNatives(java.io.File,ru.justnero.jetlauncher.swing.Panel04Load):303:362 -> a
+    9303:9362:void access$500(ru.justnero.jetlauncher.LauncherHandler,java.io.File,ru.justnero.jetlauncher.swing.Panel04Load):32 -> a
+    10036:10036:java.net.Socket ru.justnero.jetlauncher.Network.connect(int):36:36 -> a
+    10036:10036:void downloadNatives(java.io.File,ru.justnero.jetlauncher.swing.Panel04Load):307 -> a
+    10036:10036:void access$500(ru.justnero.jetlauncher.LauncherHandler,java.io.File,ru.justnero.jetlauncher.swing.Panel04Load):32 -> a
+    10759:10759:java.lang.String ru.justnero.jetlauncher.LauncherHandler$Game.displayName():759:759 -> a
+    10759:10759:void downloadNatives(java.io.File,ru.justnero.jetlauncher.swing.Panel04Load):328 -> a
+    10759:10759:void access$500(ru.justnero.jetlauncher.LauncherHandler,java.io.File,ru.justnero.jetlauncher.swing.Panel04Load):32 -> a
+    11759:11759:java.lang.String ru.justnero.jetlauncher.LauncherHandler$Game.displayName():759:759 -> a
+    11759:11759:void downloadNatives(java.io.File,ru.justnero.jetlauncher.swing.Panel04Load):332 -> a
+    11759:11759:void access$500(ru.justnero.jetlauncher.LauncherHandler,java.io.File,ru.justnero.jetlauncher.swing.Panel04Load):32 -> a
+    12759:12759:java.lang.String ru.justnero.jetlauncher.LauncherHandler$Game.displayName():759:759 -> a
+    12759:12759:void downloadNatives(java.io.File,ru.justnero.jetlauncher.swing.Panel04Load):346 -> a
+    12759:12759:void access$500(ru.justnero.jetlauncher.LauncherHandler,java.io.File,ru.justnero.jetlauncher.swing.Panel04Load):32 -> a
+    32:32:void access$600(ru.justnero.jetlauncher.LauncherHandler,java.io.File,ru.justnero.jetlauncher.swing.Panel04Load) -> b
+    13365:13376:void extractGame(java.io.File,ru.justnero.jetlauncher.swing.Panel04Load):365:376 -> b
+    13365:13376:void access$600(ru.justnero.jetlauncher.LauncherHandler,java.io.File,ru.justnero.jetlauncher.swing.Panel04Load):32 -> b
+    14016:14031:boolean ru.justnero.jetlauncher.Network.isUpToDate():16:31 -> a
+    14084:14084:java.lang.String ru.justnero.jetlauncher.util.UtilHash.sha1(java.lang.String):84:84 -> a
+    14084:14084:boolean ru.justnero.jetlauncher.Network.isUpToDate():17 -> a
+    15084:15084:java.lang.String ru.justnero.jetlauncher.util.UtilHash.sha1(java.lang.String):84:84 -> a
+    15084:15084:boolean ru.justnero.jetlauncher.Network.isUpToDate():16 -> a
+    16036:16036:java.net.Socket ru.justnero.jetlauncher.Network.connect(int):36:36 -> a
+    16036:16036:boolean ru.justnero.jetlauncher.Network.isUpToDate():20 -> a
+    16040:16051:java.net.Socket ru.justnero.jetlauncher.Network.connect(int,boolean):40:51 -> a
+    16056:16062:void ru.justnero.jetlauncher.Network.disconnect(java.net.Socket):56:62 -> a
+    17025:17041:boolean ru.justnero.jetlauncher.util.UtilCommon.lock(int):25:41 -> b
+    17046:17053:int ru.justnero.jetlauncher.util.UtilCommon.getPlatform$3a2ef0b7():46:53 -> a
+    17056:17080:java.lang.String ru.justnero.jetlauncher.util.UtilHash.sha1(java.io.File):56:80 -> a
+    17088:17094:java.lang.String ru.justnero.jetlauncher.util.UtilHash.sha1(byte[]):88:94 -> a
+    17098:17101:java.lang.String ru.justnero.jetlauncher.util.UtilHash.byteArrayToHexString(byte[]):98:101 -> a
+    17098:17101:java.lang.String ru.justnero.jetlauncher.util.UtilHash.sha1(byte[]):94 -> a
+ru.justnero.jetlauncher.LauncherHandler$1 -> b$1:
+    ru.justnero.jetlauncher.LauncherHandler$Game val$selectedGame -> a
+    ru.justnero.jetlauncher.LauncherHandler this$0 -> a
+    168:168:void <init>(ru.justnero.jetlauncher.LauncherHandler,ru.justnero.jetlauncher.LauncherHandler$Game) -> <init>
+    171:187:void run() -> run
+    1032:1032:ru.justnero.jetlauncher.LauncherHandler$Game ru.justnero.jetlauncher.LauncherHandler.access$002(ru.justnero.jetlauncher.LauncherHandler,ru.justnero.jetlauncher.LauncherHandler$Game):32:32 -> run
+    1032:1032:void run():171 -> run
+    2032:2032:ru.justnero.jetlauncher.swing.JetFrame ru.justnero.jetlauncher.LauncherHandler.access$100(ru.justnero.jetlauncher.LauncherHandler):32:32 -> run
+    2032:2032:void run():172 -> run
+    3032:3032:ru.justnero.jetlauncher.LauncherHandler$Game ru.justnero.jetlauncher.LauncherHandler.access$000(ru.justnero.jetlauncher.LauncherHandler):32:32 -> run
+    3032:3032:void run():174 -> run
+    3755:3755:java.lang.String ru.justnero.jetlauncher.LauncherHandler$Game.name():755:755 -> run
+    3755:3755:void run():174 -> run
+    4032:4032:boolean ru.justnero.jetlauncher.LauncherHandler.access$200(ru.justnero.jetlauncher.LauncherHandler,java.io.File):32:32 -> run
+    4032:4032:void run():175 -> run
+    5032:5032:boolean ru.justnero.jetlauncher.LauncherHandler.access$300(java.io.File):32:32 -> run
+    5032:5032:void run():177 -> run
+    6032:6032:void ru.justnero.jetlauncher.LauncherHandler.access$400(ru.justnero.jetlauncher.LauncherHandler,java.io.File,ru.justnero.jetlauncher.swing.Panel04Load):32:32 -> run
+    6032:6032:void run():179 -> run
+    6252:6300:void ru.justnero.jetlauncher.LauncherHandler.downloadGame(java.io.File,ru.justnero.jetlauncher.swing.Panel04Load):252:300 -> run
+    6252:6300:void ru.justnero.jetlauncher.LauncherHandler.access$400(ru.justnero.jetlauncher.LauncherHandler,java.io.File,ru.justnero.jetlauncher.swing.Panel04Load):32 -> run
+    6252:6300:void run():179 -> run
+    7036:7036:java.net.Socket ru.justnero.jetlauncher.Network.connect(int):36:36 -> run
+    7036:7036:void ru.justnero.jetlauncher.LauncherHandler.downloadGame(java.io.File,ru.justnero.jetlauncher.swing.Panel04Load):257 -> run
+    7036:7036:void ru.justnero.jetlauncher.LauncherHandler.access$400(ru.justnero.jetlauncher.LauncherHandler,java.io.File,ru.justnero.jetlauncher.swing.Panel04Load):32 -> run
+    7036:7036:void run():179 -> run
+    7751:7751:int ru.justnero.jetlauncher.LauncherHandler$Game.id():751:751 -> run
+    7751:7751:void ru.justnero.jetlauncher.LauncherHandler.downloadGame(java.io.File,ru.justnero.jetlauncher.swing.Panel04Load):261 -> run
+    7751:7751:void ru.justnero.jetlauncher.LauncherHandler.access$400(ru.justnero.jetlauncher.LauncherHandler,java.io.File,ru.justnero.jetlauncher.swing.Panel04Load):32 -> run
+    7751:7751:void run():179 -> run
+    7759:7759:java.lang.String ru.justnero.jetlauncher.LauncherHandler$Game.displayName():759:759 -> run
+    7759:7759:void ru.justnero.jetlauncher.LauncherHandler.downloadGame(java.io.File,ru.justnero.jetlauncher.swing.Panel04Load):266 -> run
+    7759:7759:void ru.justnero.jetlauncher.LauncherHandler.access$400(ru.justnero.jetlauncher.LauncherHandler,java.io.File,ru.justnero.jetlauncher.swing.Panel04Load):32 -> run
+    7759:7759:void run():179 -> run
+    8759:8759:java.lang.String ru.justnero.jetlauncher.LauncherHandler$Game.displayName():759:759 -> run
+    8759:8759:void ru.justnero.jetlauncher.LauncherHandler.downloadGame(java.io.File,ru.justnero.jetlauncher.swing.Panel04Load):270 -> run
+    8759:8759:void ru.justnero.jetlauncher.LauncherHandler.access$400(ru.justnero.jetlauncher.LauncherHandler,java.io.File,ru.justnero.jetlauncher.swing.Panel04Load):32 -> run
+    8759:8759:void run():179 -> run
+    9759:9759:java.lang.String ru.justnero.jetlauncher.LauncherHandler$Game.displayName():759:759 -> run
+    9759:9759:void ru.justnero.jetlauncher.LauncherHandler.downloadGame(java.io.File,ru.justnero.jetlauncher.swing.Panel04Load):284 -> run
+    9759:9759:void ru.justnero.jetlauncher.LauncherHandler.access$400(ru.justnero.jetlauncher.LauncherHandler,java.io.File,ru.justnero.jetlauncher.swing.Panel04Load):32 -> run
+    9759:9759:void run():179 -> run
+    10032:10032:void ru.justnero.jetlauncher.LauncherHandler.access$700(ru.justnero.jetlauncher.LauncherHandler,java.io.File):32:32 -> run
+    10032:10032:void run():186 -> run
+    10379:10397:void ru.justnero.jetlauncher.LauncherHandler.runGame(java.io.File):379:397 -> run
+    10379:10397:void ru.justnero.jetlauncher.LauncherHandler.access$700(ru.justnero.jetlauncher.LauncherHandler,java.io.File):32 -> run
+    10379:10397:void run():186 -> run
+ru.justnero.jetlauncher.LauncherHandler$Game -> b$a:
+    int id -> a
+    java.lang.String name -> a
+    java.lang.String displayName -> b
+    744:748:void <init>(int,java.lang.String,java.lang.String) -> <init>
+    764:764:java.lang.String toString() -> toString
+ru.justnero.jetlauncher.LauncherHandler$InputStreamProcessor -> b$b:
+    java.io.InputStream stream -> a
+    int level -> a
+    774:777:void <init>(java.io.InputStream,int) -> <init>
+    782:806:void run() -> run
+ru.justnero.jetlauncher.Main -> ru.justnero.jetlauncher.Main:
+    16:16:void <init>() -> <init>
+    19:24:void main(java.lang.String[]) -> main
+    1027:1029:void preInit():27:29 -> main
+    1027:1029:void main(java.lang.String[]):19 -> main
+    1032:1067:void init():32:67 -> main
+    1032:1067:void main(java.lang.String[]):21 -> main
+    2050:2051:void ru.justnero.jetlauncher.LauncherHandler.start():50:51 -> main
+    2050:2051:void init():66 -> main
+    2050:2051:void main(java.lang.String[]):21 -> main
+    2054:2056:void ru.justnero.jetlauncher.LauncherHandler.init():54:56 -> main
+    2054:2056:void ru.justnero.jetlauncher.LauncherHandler.start():50 -> main
+    2054:2056:void init():66 -> main
+    2054:2056:void main(java.lang.String[]):21 -> main
+    2578:2600:void ru.justnero.jetlauncher.LauncherHandler.readSettings():578:600 -> main
+    2578:2600:void ru.justnero.jetlauncher.LauncherHandler.init():54 -> main
+    2578:2600:void ru.justnero.jetlauncher.LauncherHandler.start():50 -> main
+    2578:2600:void init():66 -> main
+    2578:2600:void main(java.lang.String[]):21 -> main
+    3093:3094:void postInit():93:94 -> main
+    3093:3094:void main(java.lang.String[]):23 -> main
+    4045:4051:void ru.justnero.jetlauncher.InitSplash.die():45:51 -> main
+    4045:4051:void postInit():93 -> main
+    4045:4051:void main(java.lang.String[]):23 -> main
+    70:90:void update() -> a
+ru.justnero.jetlauncher.swing.IconButton -> c:
+    14:36:void <init>(java.lang.String) -> <init>
+ru.justnero.jetlauncher.swing.IconButton$1 -> c$1:
+    ru.justnero.jetlauncher.swing.IconButton this$0 -> a
+    25:25:void <init>(ru.justnero.jetlauncher.swing.IconButton) -> <init>
+    28:29:void mouseEntered(java.awt.event.MouseEvent) -> mouseEntered
+    33:34:void mouseExited(java.awt.event.MouseEvent) -> mouseExited
+ru.justnero.jetlauncher.swing.ImageButton -> d:
+    20:53:void <init>(java.lang.String) -> <init>
+ru.justnero.jetlauncher.swing.ImageButton$1 -> d$1:
+    ru.justnero.jetlauncher.swing.ImageButton this$0 -> a
+    38:38:void <init>(ru.justnero.jetlauncher.swing.ImageButton) -> <init>
+    41:44:void mousePressed(java.awt.event.MouseEvent) -> mousePressed
+    48:51:void mouseReleased(java.awt.event.MouseEvent) -> mouseReleased
+ru.justnero.jetlauncher.swing.JetButton -> e:
+    ru.justnero.jetlauncher.swing.JetLabel textL -> a
+    17:34:void <init>(java.lang.String) -> <init>
+    38:51:void paintComponent(java.awt.Graphics) -> paintComponent
+ru.justnero.jetlauncher.swing.JetCheckBox -> f:
+    java.awt.Image checkIcon -> a
+    25:46:void <init>() -> <init>
+    50:66:void paintComponent(java.awt.Graphics) -> paintComponent
+ru.justnero.jetlauncher.swing.JetComboBox -> ru.justnero.jetlauncher.swing.JetComboBox:
+    ru.justnero.jetlauncher.swing.JetLabel selectedL -> a
+    ru.justnero.jetlauncher.swing.JetComboBox _this -> a
+    26:43:void <init>(java.lang.Object[]) -> <init>
+    54:54:void paintComponent(java.awt.Graphics) -> paintComponent
+    20:20:ru.justnero.jetlauncher.swing.JetComboBox access$100(ru.justnero.jetlauncher.swing.JetComboBox) -> a
+    20:20:ru.justnero.jetlauncher.swing.JetLabel access$200(ru.justnero.jetlauncher.swing.JetComboBox) -> a
+ru.justnero.jetlauncher.swing.JetComboBox$1 -> ru.justnero.jetlauncher.swing.JetComboBox$1:
+    ru.justnero.jetlauncher.swing.JetComboBox this$0 -> a
+    33:33:void <init>(ru.justnero.jetlauncher.swing.JetComboBox) -> <init>
+    36:41:void actionPerformed(java.awt.event.ActionEvent) -> actionPerformed
+ru.justnero.jetlauncher.swing.JetComboBox$JetComboBoxRenderer -> ru.justnero.jetlauncher.swing.JetComboBox$a:
+    88:92:void <init>() -> <init>
+    1037:1038:void ru.justnero.jetlauncher.swing.JetLabel.setLeftOffset(int):37:38 -> <init>
+    1037:1038:void <init>():90 -> <init>
+    96:106:java.awt.Component getListCellRendererComponent(javax.swing.JList,java.lang.Object,int,boolean,boolean) -> getListCellRendererComponent
+ru.justnero.jetlauncher.swing.JetComboBox$JetComboBoxUI -> ru.justnero.jetlauncher.swing.JetComboBox$JetComboBoxUI:
+    56:56:void <init>() -> <init>
+    59:82:javax.swing.JButton createArrowButton() -> createArrowButton
+    56:56:void <init>(byte) -> <init>
+ru.justnero.jetlauncher.swing.JetComboBox$JetComboBoxUI$1 -> ru.justnero.jetlauncher.swing.JetComboBox$JetComboBoxUI$1:
+    65:65:void <init>(java.awt.Color,java.awt.Color,java.awt.Color,java.awt.Color) -> <init>
+    69:77:void paint(java.awt.Graphics) -> paint
+ru.justnero.jetlauncher.swing.JetFormElement -> g:
+    javax.swing.JComponent _hidden -> a
+    javax.swing.JLabel _placeholder -> a
+    19:49:void <init>(javax.swing.JComponent,java.lang.String) -> <init>
+    1046:1051:void ru.justnero.jetlauncher.swing.JetComboBox.init():46:51 -> <init>
+    1046:1051:void <init>(javax.swing.JComponent,java.lang.String):35 -> <init>
+    57:71:void paintComponent(java.awt.Graphics) -> paintComponent
+ru.justnero.jetlauncher.swing.JetFrame -> h:
+    ru.justnero.jetlauncher.LauncherHandler handler -> a
+    int jetFramePosX -> a
+    int jetFramePosY -> b
+    int contentType -> c
+    ru.justnero.jetlauncher.swing.JetPanel panel03 -> a
+    ru.justnero.jetlauncher.swing.JetPanel panel04 -> b
+    26:84:void <init>(ru.justnero.jetlauncher.LauncherHandler,java.lang.String) -> <init>
+    1113:1117:ru.justnero.jetlauncher.swing.ImageButton getLogotype():113:117 -> <init>
+    1113:1117:void <init>(ru.justnero.jetlauncher.LauncherHandler,java.lang.String):78 -> <init>
+    1121:1130:ru.justnero.jetlauncher.swing.ImageButton getSettings():121:130 -> <init>
+    1121:1130:void <init>(ru.justnero.jetlauncher.LauncherHandler,java.lang.String):80 -> <init>
+    87:109:ru.justnero.jetlauncher.swing.JetPanel changeContent(int) -> a
+    18:18:int access$200(ru.justnero.jetlauncher.swing.JetFrame) -> a
+    18:18:int access$302(ru.justnero.jetlauncher.swing.JetFrame,int) -> a
+    18:18:int access$402(ru.justnero.jetlauncher.swing.JetFrame,int) -> b
+    18:18:int access$300(ru.justnero.jetlauncher.swing.JetFrame) -> b
+    18:18:int access$400(ru.justnero.jetlauncher.swing.JetFrame) -> c
+ru.justnero.jetlauncher.swing.JetFrame$1 -> h$1:
+    ru.justnero.jetlauncher.swing.JetFrame this$0 -> a
+    124:124:void <init>(ru.justnero.jetlauncher.swing.JetFrame) -> <init>
+    127:128:void actionPerformed(java.awt.event.ActionEvent) -> actionPerformed
+ru.justnero.jetlauncher.swing.JetFrame$MouseMoveAdapter -> h$a:
+    ru.justnero.jetlauncher.swing.JetFrame this$0 -> a
+    143:143:void <init>(ru.justnero.jetlauncher.swing.JetFrame) -> <init>
+    147:148:void mouseDragged(java.awt.event.MouseEvent) -> mouseDragged
+    143:143:void <init>(ru.justnero.jetlauncher.swing.JetFrame,byte) -> <init>
+ru.justnero.jetlauncher.swing.JetFrame$MousePressedAdapter -> h$b:
+    ru.justnero.jetlauncher.swing.JetFrame this$0 -> a
+    133:133:void <init>(ru.justnero.jetlauncher.swing.JetFrame) -> <init>
+    137:139:void mousePressed(java.awt.event.MouseEvent) -> mousePressed
+    133:133:void <init>(ru.justnero.jetlauncher.swing.JetFrame,byte) -> <init>
+ru.justnero.jetlauncher.swing.JetLabel -> i:
+    int leftOffset -> a
+    14:23:void <init>(java.lang.String) -> <init>
+    14:27:void <init>() -> <init>
+    31:34:void setText(java.lang.String) -> setText
+    46:55:void paintComponent(java.awt.Graphics) -> paintComponent
+ru.justnero.jetlauncher.swing.JetPanel -> j:
+    ru.justnero.jetlauncher.swing.JetFrame _parent -> a
+    java.awt.Image bgImage -> a
+    14:18:void <init>(ru.justnero.jetlauncher.swing.JetFrame) -> <init>
+    21:27:void <init>(ru.justnero.jetlauncher.swing.JetFrame,byte) -> <init>
+    void init() -> a
+    33:34:void paintComponent(java.awt.Graphics) -> paintComponent
+ru.justnero.jetlauncher.swing.JetProgressBar -> k:
+    float percentValue -> a
+    java.lang.String percentText -> a
+    14:22:void <init>() -> <init>
+    39:66:void paintComponent(java.awt.Graphics) -> paintComponent
+ru.justnero.jetlauncher.swing.Panel01Title -> l:
+    24:25:void <init>(ru.justnero.jetlauncher.swing.JetFrame) -> <init>
+    29:69:void init() -> a
+    16:16:void access$000(ru.justnero.jetlauncher.swing.Panel01Title) -> a
+    1072:1073:void minimize():72:73 -> a
+    1072:1073:void access$000(ru.justnero.jetlauncher.swing.Panel01Title):16 -> a
+ru.justnero.jetlauncher.swing.Panel01Title$1 -> l$1:
+    ru.justnero.jetlauncher.swing.Panel01Title this$0 -> a
+    51:51:void <init>(ru.justnero.jetlauncher.swing.Panel01Title) -> <init>
+    54:55:void actionPerformed(java.awt.event.ActionEvent) -> actionPerformed
+ru.justnero.jetlauncher.swing.Panel01Title$2 -> l$2:
+    62:62:void <init>() -> <init>
+    65:66:void actionPerformed(java.awt.event.ActionEvent) -> actionPerformed
+ru.justnero.jetlauncher.swing.Panel02Logotype -> m:
+    21:22:void <init>(ru.justnero.jetlauncher.swing.JetFrame) -> <init>
+    26:49:void init() -> a
+ru.justnero.jetlauncher.swing.Panel03Action -> n:
+    ru.justnero.jetlauncher.swing.JetLabel actionL -> a
+    java.lang.String actionS -> a
+    19:29:void <init>(ru.justnero.jetlauncher.swing.JetFrame,java.lang.String) -> <init>
+    33:37:void init() -> a
+    40:42:void changeAction(java.lang.String) -> a
+    46:51:void paintComponent(java.awt.Graphics) -> paintComponent
+ru.justnero.jetlauncher.swing.Panel04Auth -> o:
+    21:22:void <init>(ru.justnero.jetlauncher.swing.JetFrame) -> <init>
+    26:81:void init() -> a
+    85:90:void paintComponent(java.awt.Graphics) -> paintComponent
+ru.justnero.jetlauncher.swing.Panel04Auth$1 -> o$1:
+    ru.justnero.jetlauncher.swing.JetFormElement val$loginF -> a
+    ru.justnero.jetlauncher.swing.JetFormElement val$passwordF -> b
+    ru.justnero.jetlauncher.swing.JetFormElement val$serverF -> c
+    ru.justnero.jetlauncher.swing.JetCheckBox val$checkBoxBtn -> a
+    ru.justnero.jetlauncher.swing.Panel04Auth this$0 -> a
+    70:70:void <init>(ru.justnero.jetlauncher.swing.Panel04Auth,ru.justnero.jetlauncher.swing.JetFormElement,ru.justnero.jetlauncher.swing.JetFormElement,ru.justnero.jetlauncher.swing.JetFormElement,ru.justnero.jetlauncher.swing.JetCheckBox) -> <init>
+    73:79:void actionPerformed(java.awt.event.ActionEvent) -> actionPerformed
+    1052:1052:javax.swing.JComponent ru.justnero.jetlauncher.swing.JetFormElement.getHidden():52:52 -> actionPerformed
+    1052:1052:void actionPerformed(java.awt.event.ActionEvent):74 -> actionPerformed
+    2052:2052:javax.swing.JComponent ru.justnero.jetlauncher.swing.JetFormElement.getHidden():52:52 -> actionPerformed
+    2052:2052:void actionPerformed(java.awt.event.ActionEvent):75 -> actionPerformed
+    3052:3052:javax.swing.JComponent ru.justnero.jetlauncher.swing.JetFormElement.getHidden():52:52 -> actionPerformed
+    3052:3052:void actionPerformed(java.awt.event.ActionEvent):76 -> actionPerformed
+    3094:3165:void ru.justnero.jetlauncher.LauncherHandler.handleAuth(java.lang.String,java.lang.String,ru.justnero.jetlauncher.LauncherHandler$Game,boolean):94:165 -> actionPerformed
+    3094:3165:void actionPerformed(java.awt.event.ActionEvent):73 -> actionPerformed
+    4036:4036:java.net.Socket ru.justnero.jetlauncher.Network.connect(int):36:36 -> actionPerformed
+    4036:4036:void ru.justnero.jetlauncher.LauncherHandler.handleAuth(java.lang.String,java.lang.String,ru.justnero.jetlauncher.LauncherHandler$Game,boolean):111 -> actionPerformed
+    4036:4036:void actionPerformed(java.awt.event.ActionEvent):73 -> actionPerformed
+    4084:4084:java.lang.String ru.justnero.jetlauncher.util.UtilHash.sha1(java.lang.String):84:84 -> actionPerformed
+    4084:4084:void ru.justnero.jetlauncher.LauncherHandler.handleAuth(java.lang.String,java.lang.String,ru.justnero.jetlauncher.LauncherHandler$Game,boolean):116 -> actionPerformed
+    4084:4084:void actionPerformed(java.awt.event.ActionEvent):73 -> actionPerformed
+    5084:5084:java.lang.String ru.justnero.jetlauncher.util.UtilHash.sha1(java.lang.String):84:84 -> actionPerformed
+    5084:5084:void ru.justnero.jetlauncher.LauncherHandler.handleAuth(java.lang.String,java.lang.String,ru.justnero.jetlauncher.LauncherHandler$Game,boolean):118 -> actionPerformed
+    5084:5084:void actionPerformed(java.awt.event.ActionEvent):73 -> actionPerformed
+    6084:6084:java.lang.String ru.justnero.jetlauncher.util.UtilHash.sha1(java.lang.String):84:84 -> actionPerformed
+    6084:6084:void ru.justnero.jetlauncher.LauncherHandler.handleAuth(java.lang.String,java.lang.String,ru.justnero.jetlauncher.LauncherHandler$Game,boolean):117 -> actionPerformed
+    6084:6084:void actionPerformed(java.awt.event.ActionEvent):73 -> actionPerformed
+    6675:6727:void ru.justnero.jetlauncher.LauncherHandler.rememberData(java.lang.String,java.lang.String,boolean):675:727 -> actionPerformed
+    6675:6727:void ru.justnero.jetlauncher.LauncherHandler.handleAuth(java.lang.String,java.lang.String,ru.justnero.jetlauncher.LauncherHandler$Game,boolean):151 -> actionPerformed
+    6675:6727:void actionPerformed(java.awt.event.ActionEvent):73 -> actionPerformed
+    7168:7189:void ru.justnero.jetlauncher.LauncherHandler.startLoad(ru.justnero.jetlauncher.LauncherHandler$Game):168:189 -> actionPerformed
+    7168:7189:void ru.justnero.jetlauncher.LauncherHandler.handleAuth(java.lang.String,java.lang.String,ru.justnero.jetlauncher.LauncherHandler$Game,boolean):152 -> actionPerformed
+    7168:7189:void actionPerformed(java.awt.event.ActionEvent):73 -> actionPerformed
+ru.justnero.jetlauncher.swing.Panel04Load -> p:
+    ru.justnero.jetlauncher.swing.Panel04Load instance -> a
+    boolean tardisVisible -> a
+    javax.swing.JLabel tardisL -> a
+    ru.justnero.jetlauncher.swing.JetLabel noticeL1 -> a
+    ru.justnero.jetlauncher.swing.JetLabel noticeL2 -> b
+    ru.justnero.jetlauncher.swing.JetLabel stateL -> c
+    ru.justnero.jetlauncher.swing.JetLabel currentL -> d
+    ru.justnero.jetlauncher.swing.JetLabel subdataL -> e
+    ru.justnero.jetlauncher.swing.JetProgressBar progressBar -> a
+    32:34:void <init>(ru.justnero.jetlauncher.swing.JetFrame) -> <init>
+    38:78:void init() -> a
+    81:85:void toggleTardis$1385ff() -> b
+    88:116:void update(java.lang.String,java.lang.String,java.lang.String,int) -> a
+    120:125:void paintComponent(java.awt.Graphics) -> paintComponent
+    13:13:ru.justnero.jetlauncher.swing.JetLabel access$000(ru.justnero.jetlauncher.swing.Panel04Load) -> a
+    13:13:ru.justnero.jetlauncher.swing.JetLabel access$100(ru.justnero.jetlauncher.swing.Panel04Load) -> b
+    13:13:ru.justnero.jetlauncher.swing.JetLabel access$200(ru.justnero.jetlauncher.swing.Panel04Load) -> c
+    13:13:ru.justnero.jetlauncher.swing.JetProgressBar access$300(ru.justnero.jetlauncher.swing.Panel04Load) -> a
+    15:16:void <clinit>() -> <clinit>
+ru.justnero.jetlauncher.swing.Panel04Load$1 -> p$1:
+    java.lang.String val$state -> a
+    java.lang.String val$current -> b
+    java.lang.String val$subdata -> c
+    int val$progress -> a
+    ru.justnero.jetlauncher.swing.Panel04Load this$0 -> a
+    88:88:void <init>(ru.justnero.jetlauncher.swing.Panel04Load,java.lang.String,java.lang.String,java.lang.String,int) -> <init>
+    91:114:void run() -> run
+    1025:1035:void ru.justnero.jetlauncher.swing.JetProgressBar.setProgress(float):25:35 -> run
+    1025:1035:void run():110 -> run
+ru.justnero.jetlauncher.swing.Panel04Settings -> q:
+    ru.justnero.jetlauncher.swing.Panel04Settings$Memory[] memory -> a
+    25:26:void <init>(ru.justnero.jetlauncher.swing.JetFrame) -> <init>
+    30:55:void init() -> a
+    1052:1052:javax.swing.JComponent ru.justnero.jetlauncher.swing.JetFormElement.getHidden():52:52 -> a
+    1052:1052:void init():45 -> a
+    1735:1735:int ru.justnero.jetlauncher.LauncherHandler.getMemoryLimit():735:735 -> a
+    1735:1735:void init():45 -> a
+    2067:2072:ru.justnero.jetlauncher.swing.Panel04Settings$Memory getMemory(int):67:72 -> a
+    2067:2072:void init():45 -> a
+    2075:2075:int ru.justnero.jetlauncher.swing.Panel04Settings$Memory.access$000(ru.justnero.jetlauncher.swing.Panel04Settings$Memory):75:75 -> a
+    2075:2075:ru.justnero.jetlauncher.swing.Panel04Settings$Memory getMemory(int):68 -> a
+    2075:2075:void init():45 -> a
+    3052:3052:javax.swing.JComponent ru.justnero.jetlauncher.swing.JetFormElement.getHidden():52:52 -> a
+    3052:3052:void init():46 -> a
+    59:64:void paintComponent(java.awt.Graphics) -> paintComponent
+    16:16:void <clinit>() -> <clinit>
+ru.justnero.jetlauncher.swing.Panel04Settings$1 -> q$1:
+    ru.justnero.jetlauncher.swing.Panel04Settings this$0 -> a
+    46:46:void <init>(ru.justnero.jetlauncher.swing.Panel04Settings) -> <init>
+    49:53:void itemStateChanged(java.awt.event.ItemEvent) -> itemStateChanged
+    1075:1075:int ru.justnero.jetlauncher.swing.Panel04Settings$Memory.access$000(ru.justnero.jetlauncher.swing.Panel04Settings$Memory):75:75 -> itemStateChanged
+    1075:1075:void itemStateChanged(java.awt.event.ItemEvent):51 -> itemStateChanged
+    1730:1732:void ru.justnero.jetlauncher.LauncherHandler.setMemoryLimit(int):730:732 -> itemStateChanged
+    1730:1732:void itemStateChanged(java.awt.event.ItemEvent):51 -> itemStateChanged
+    2603:2629:void ru.justnero.jetlauncher.LauncherHandler.writeSettings():603:629 -> itemStateChanged
+    2603:2629:void ru.justnero.jetlauncher.LauncherHandler.setMemoryLimit(int):731 -> itemStateChanged
+    2603:2629:void itemStateChanged(java.awt.event.ItemEvent):51 -> itemStateChanged
+ru.justnero.jetlauncher.swing.Panel04Settings$Memory -> q$a:
+    int capacity -> a
+    java.lang.String displayName -> a
+    80:83:void <init>(int,java.lang.String) -> <init>
+    87:87:java.lang.String toString() -> toString
+ru.justnero.jetlauncher.swing.Panel05Copyright -> r:
+    int clickCounter -> a
+    ru.justnero.jetlauncher.swing.JetLabel copyL -> a
+    28:29:void <init>(ru.justnero.jetlauncher.swing.JetFrame) -> <init>
+    33:77:void init() -> a
+    18:18:void <clinit>() -> <clinit>
+ru.justnero.jetlauncher.swing.Panel05Copyright$1 -> r$1:
+    56:56:void <init>() -> <init>
+    59:63:void mouseClicked(java.awt.event.MouseEvent) -> mouseClicked
+    66:66:void mousePressed(java.awt.event.MouseEvent) -> mousePressed
+    69:69:void mouseReleased(java.awt.event.MouseEvent) -> mouseReleased
+    72:72:void mouseEntered(java.awt.event.MouseEvent) -> mouseEntered
+    75:75:void mouseExited(java.awt.event.MouseEvent) -> mouseExited
+ru.justnero.jetlauncher.util.UtilCommon$1 -> s:
+    java.net.ServerSocket val$socket -> a
+    26:26:void <init>(java.lang.String,java.net.ServerSocket) -> <init>
+    31:33:void run() -> run
+ru.justnero.jetlauncher.util.UtilCommon$OS -> t:
+    int linux$763c7c8 -> a
+    int solaris$763c7c8 -> b
+    int windows$763c7c8 -> c
+    int macos$763c7c8 -> d
+    int unknown$763c7c8 -> e
+    56:57:void <clinit>() -> <clinit>
+ru.justnero.jetlauncher.util.UtilFile -> u:
+    int bufferSize -> a
+    java.io.File workDir -> a
+    47:56:boolean isRightLocation() -> a
+    60:74:java.util.ArrayList getDirHashes(java.io.File) -> a
+    78:85:java.io.File constructPath(java.lang.String[]) -> a
+    89:91:java.io.File getWorkDir() -> a
+    1095:1118:java.io.File getWorkDir(java.lang.String):95:118 -> a
+    1095:1118:java.io.File getWorkDir():90 -> a
+    122:147:int downloadFile$6a70d768(java.lang.String,java.nio.file.Path) -> a
+    151:201:int extractFile$1c5e5911(java.lang.String,java.nio.file.Path) -> b
+    209:209:boolean fileExists(java.nio.file.Path) -> a
+    40:43:void <clinit>() -> <clinit>
+ru.justnero.jetlauncher.util.UtilLog -> v:
+    boolean infoEnabled -> a
+    boolean warningEnabled -> b
+    boolean errorEnabled -> c
+    java.io.PrintStream out -> a
+    18:22:void info(java.lang.String[]) -> a
+    25:29:void warning(java.lang.String[]) -> b
+    32:36:void error(java.lang.String[]) -> c
+    39:48:void error(java.lang.Throwable) -> a
+    51:55:void debug$3231c38a() -> a
+    58:67:void debug$786b7c60() -> b
+    70:74:void println(java.lang.String[]) -> d
+    11:15:void <clinit>() -> <clinit>
+ru.justnero.jetlauncher.util.UtilSwing -> w:
+    java.awt.Color colorTextHover -> a
+    java.awt.Color colorGradientMainTop -> b
+    java.awt.Color colorGradientMainBottom -> c
+    java.awt.Color colorTextNormal -> d
+    java.awt.Color colorTextLight -> e
+    java.awt.Color colorTextDark -> f
+    java.awt.Color colorTextForm -> g
+    java.awt.Color colorShadow -> h
+    java.awt.Color colorGradientLightTop -> i
+    java.awt.Color colorGradientLightBottom -> j
+    java.awt.Color colorGradientDarkTop -> k
+    java.awt.Color colorGradientDarkBottom -> l
+    java.awt.Color colorTShadow -> m
+    java.awt.Color colorGradientLightTTop -> n
+    java.awt.Color colorGradientLightTBottom -> o
+    java.awt.Font fontDefaultPlain -> a
+    java.awt.Font fontDefaultBold -> b
+    38:53:void initFonts(java.net.URL,java.net.URL) -> a
+    56:65:java.awt.Font getFont(int,float) -> a
+    1069:1069:java.awt.Font getFont(java.awt.Font,float):69:69 -> a
+    1069:1069:java.awt.Font getFont(int,float):65 -> a
+    14:30:void <clinit>() -> <clinit>
+ru.justnero.jetlauncher.util.UtilSwing$ActionOpenLink -> w$a:
+    java.lang.String link -> a
+    75:77:void <init>(java.lang.String) -> <init>
+    82:87:void actionPerformed(java.awt.event.ActionEvent) -> actionPerformed
+    1016:1021:void ru.justnero.jetlauncher.util.UtilCommon.openBrowser(java.lang.String):16:21 -> actionPerformed
+    1016:1021:void actionPerformed(java.awt.event.ActionEvent):82 -> actionPerformed
+ru.justnero.jetlauncher.util.UtilSwing$TransparentFilter -> w$b:
+    90:90:void <init>() -> <init>
+    93:96:int filterRGB(int,int,int) -> filterRGB
