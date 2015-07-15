@@ -1,7 +1,12 @@
 apply plugin:'java'
-apply plugin: 'application'
+apply plugin: 'edu.sc.seis.launch4j'
 
-mainClassName = "ru.justnero.jetlauncher.Main"
+version = '1.0'
+
+sourceCompatibility = '1.7'
+targetCompatibility = '1.7'
+
+jar.archiveName = "${->project.name}.clean.jar"
 
 repositories {
    flatDir {
@@ -13,8 +18,66 @@ dependencies {
     compile fileTree(dir: 'lib', include: '*.jar')
 }
 
+buildscript {
+    repositories {
+        flatDir {
+            dirs 'proguard'
+        }
+        maven {
+            url "https://plugins.gradle.org/m2/"
+        }
+     }
+
+    dependencies {
+        classpath ':proguard:'
+        classpath 'gradle.plugin.edu.sc.seis.gradle:launch4j:1.1.2'
+    }
+}
+
 jar {
     manifest {
-        attributes 'Main-Class': mainClassName
+        attributes 'Main-Class': 'ru.justnero.jetlauncher.Main'
     }
+}
+
+task obfuscate(type: proguard.gradle.ProGuardTask, dependsOn: jar) {
+    configuration file('proguard/config.pro')
+    injars  file("build/libs/${->project.name}.clean.jar")
+    outjars file("build/libs/${->project.name}.jar")
+}
+
+launch4j {
+    launch4jCmd = "${->project.rootDir}/launch4j/launch4j.exe"
+    outputDir = 'libs'
+    
+    version = project.version
+    textVersion = project.version
+    jar = "${->project.name}.jar"
+    mainClassName = 'ru.justnero.jetlauncher.Main'
+    icon = "${->project.rootDir}/src/main/resources/ru/justnero/jetlauncher/theme/favicon.ico"
+    splashFileName = "${->project.rootDir}/src/main/resources/ru/justnero/jetlauncher/theme/loading.png"
+    
+    jreMinVersion = '1.7.0'
+    maxHeapSize = 20
+    
+    copyright = 'justnero'
+}
+
+task dist(type: Copy, dependsOn: [obfuscate, createExe]) {
+    destinationDir = file('build/distributions')
+    from('build/libs') {
+        exclude '*clean.*'
+        include '*.exe'
+        include '*.jar'
+    }
+}
+
+task release(dependsOn: [assemble]) {
+    createExe.dependsOn obfuscate
+    assemble.dependsOn dist
+    println("Release ${->project.name} ${version}")
+}
+
+artifacts {
+    dist
 }
